@@ -1,1 +1,1 @@
-# course_work3
+Курсовая работа №3 - skypro
