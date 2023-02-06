@@ -1,5 +1,5 @@
 import requests
-import datetime  # импорт библиотек
+import datetime
 
 URL = 'https://www.jsonkeeper.com/b/45XD'
 
@@ -102,6 +102,5 @@ def get_last_5(transactions_list, last_5_trans):  # Заполнение спи�
             for trans in last_5_trans:
                 print(trans.info())  # вывод транзакций
             break
-
 
 get_last_5(transactions_list, last_5_trans_list)
