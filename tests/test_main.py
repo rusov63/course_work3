@@ -1,4 +1,5 @@
 import unittest
+from utils.main import Transaction
 
 class Testmain(unittest.TestCase):
     def setUp(self):

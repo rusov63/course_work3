@@ -6,7 +6,7 @@ URL = 'https://www.jsonkeeper.com/b/45XD'
 
 class Transaction:
     """
-    Создание класса Транзакции и инициализация аргументов
+    Создание класса Транзакции и инициализация арг
     """
 
     def __init__(self, trans_date, trans_desc, trans_from, trans_to, trans_amount, trans_curr):
@@ -104,4 +104,4 @@ def get_last_5(transactions_list, last_5_trans):  # Заполнение спи�
             break
 
 
-get_last_5(transactions_list, last_5_trans_list)  # Вывод транзакций
+get_last_5(transactions_list, last_5_trans_list)
